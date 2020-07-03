@@ -1,0 +1,49 @@
+{
+  "name": "@openseadragon-imaging/openseadragon-imaging.github.io",
+  "version": "0.1.0",
+  "description": "OpenSeadragon Imaging GitHub Pages",
+  "license": "MIT",
+  "private": false,
+  "author": {
+    "name": "Mark Salsbery",
+    "email": "msalsbery@hotmail.com",
+    "url": "https://github.com/msalsbery"
+  },
+  "contributors": [],
+  "homepage": "https://github.com/openseadragon-imaging/openseadragon-imaging.github.io#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openseadragon-imaging/openseadragon-imaging.github.io.git"
+  },
+  "bugs": "https://github.com/openseadragon-imaging/openseadragon-imaging.github.io/issues",
+  "keywords": [
+    "openseadragon",
+    "openseadragonimaging",
+    "deep",
+    "zoom",
+    "dzi"
+  ],
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.3.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-compat": "^3.8.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jsdoc": "^3.6.4",
+    "node-sass": "^4.14.1",
+    "prettier": "2.0.5",
+    "sass": "^1.26.9"
+  },
+  "peerDependencies": {},
+  "scripts": {
+    "start": "echo \"Hi!\" && exit 1",
+    "lint": "eslint **/*",
+    "lint-fix": "eslint --fix **/*",
+    "prettier": "prettier --check \"**/*\"",
+    "prettier-fix": "prettier --write \"**/*\""
+  }
+}

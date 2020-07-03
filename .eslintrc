@@ -1,0 +1,32 @@
+{
+  "root": true,
+  "extends": [
+    "eslint:recommended",
+    "plugin:compat/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  },
+  "env": {
+    "es2017": true,
+    "node": true,
+    "mongo": false,
+    "shared-node-browser": false,
+    "browser": true,
+    "commonjs": true,
+    "amd": false,
+    "jquery": false
+  },
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "script",
+    "ecmaFeatures": {
+      "globalReturn": false,
+      "impliedStrict": true,
+      "jsx": true
+    }
+  },
+  "globals": {}
+}

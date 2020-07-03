@@ -1,0 +1,14 @@
+node_modules/**
+builds/**
+docs/**
+demo/lib/**
+content/images/**
+content/dziimages/**
+LICENSE
+.editorconfig
+.eslintignore
+.gitattributes
+.gitignore
+.npmignore
+.prettierignore
+package-lock.json
