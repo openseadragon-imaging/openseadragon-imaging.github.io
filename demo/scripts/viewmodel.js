@@ -84,7 +84,7 @@
 		onImageViewChanged: onImageViewChanged
 	});
 	// eslint-disable-line no-unused-vars
-	var viewerInputHook = viewer.addViewerInputHook({
+	viewer.addViewerInputHook({
 		hooks: [
 			{
 				tracker: 'viewer',
@@ -122,7 +122,7 @@
 			);
 		}, this);
 
-	viewer.addHandler('open', function (event) {
+	viewer.addHandler('open', function (/*event*/) {
 		_$osdCanvas = $(viewer.canvas);
 		setMinMaxZoomForImage();
 		outputVM.haveImage(true);
@@ -163,7 +163,7 @@
 		//viewer.drawer.addOverlay(img, point);
 	});
 
-	viewer.addHandler('close', function (event) {
+	viewer.addHandler('close', function (/*event*/) {
 		_$navExpander.css('visibility', 'hidden');
 		_$svgOverlay.css('visibility', 'hidden');
 		outputVM.haveImage(false);
@@ -225,7 +225,7 @@
 		imagingHelper.setZoomStepPercent(35);
 	}
 
-	function onImageViewChanged(event) {
+	function onImageViewChanged(/*event*/) {
 		// event.viewportWidth == width of viewer viewport in logical coordinates relative to image native size
 		// event.viewportHeight == height of viewer viewport in logical coordinates relative to image native size
 		// event.viewportOrigin == OpenSeadragon.Point, top-left of the viewer viewport in logical coordinates relative to image
@@ -286,7 +286,7 @@
 		event.preventDefaultAction = true;
 	}
 
-	function onOsdCanvasMouseEnter(event) {
+	function onOsdCanvasMouseEnter(/*event*/) {
 		outputVM.haveMouse(true);
 		updateImgViewerScreenCoordinatesVM();
 	}
@@ -309,7 +309,7 @@
 		updateImgViewerScreenCoordinatesVM();
 	}
 
-	function onOsdCanvasMouseLeave(event) {
+	function onOsdCanvasMouseLeave(/*event*/) {
 		outputVM.haveMouse(false);
 	}
 
@@ -411,7 +411,7 @@
 		}
 	}
 
-	_$navExpanderHeaderContainer.on('click', null, function (event) {
+	_$navExpanderHeaderContainer.on('click', null, function (/*event*/) {
 		if (_navExpanderIsCollapsed) {
 			_navExpanderExpand();
 		} else {
