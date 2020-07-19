@@ -4,8 +4,8 @@
 
 **Note: to contribute to this website, use the https://github.com/openseadragon-imaging/openseadragon-imaging repository (in the site.github.io folder).**
 
-This repository is a Github Organization Page - everything that's checked in to the master branch is automatically published to http://openseadragon-imaging.github.io/.
+This repository is a Github Organization Page - everything that's checked in to the master branch is automatically published to https://openseadragon-imaging.github.io/.
 
 The files that are checked in here (with the exception of this readme) are all generated from the openseadragon-imaging repository.
 
-[OpenSeadragon Imaging Home](http://openseadragon-imaging.github.io/index.html)
+[OpenSeadragon Imaging Home](https://openseadragon-imaging.github.io/)
