@@ -1,6 +1,6 @@
-//! Built on 2021-03-02
+//! Built on 2021-03-10
 
-//! Git commit: v2.4.2-72-6a1a627-dirty
+//! Git commit: v2.4.2-89-ab3f49a
 
 //! License: http://openseadragon.github.io/license/
 
