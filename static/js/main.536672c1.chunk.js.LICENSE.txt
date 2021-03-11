@@ -1,11 +1,9 @@
 //! Built on 2021-03-10
 
-//! Git commit: v2.4.2-89-ab3f49a
+//! Git commit: v2.4.2-98-802c3c2
 
 //! License: http://openseadragon.github.io/license/
 
 //! http://openseadragon.github.io
 
 //! openseadragon 2.4.2
-
-//!tracker.hasContextMenuHandler;
